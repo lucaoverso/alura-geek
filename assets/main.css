@@ -1,3 +1,10 @@
+@import url(/assets/_reset.css);
+@import url(/assets/header.css);
+@import url(/assets/banner.css);
+@import url(/assets/products.css);
+@import url(/assets/footer.css);
+
+
 .container {
     font-family: 'Raleway', sans-serif;
 }
