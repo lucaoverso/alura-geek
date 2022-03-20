@@ -1,8 +1,13 @@
-@import url(/assets/styles/reset.css);
-@import url(/assets/styles/header.css);
-@import url(/assets/styles/banner.css);
-@import url(/assets/styles/products.css);
-@import url(/assets/styles/footer.css);
+@import url(reset.css);
+@import url(header.css);
+@import url(banner.css);
+@import url(products.css);
+@import url(footer.css);
+@import url(icons.css);
+
+i {
+    font-size: 1.5rem;
+}
 
 
 .container {
