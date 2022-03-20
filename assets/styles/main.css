@@ -1,8 +1,8 @@
-@import url(/assets/_reset.css);
-@import url(/assets/header.css);
-@import url(/assets/banner.css);
-@import url(/assets/products.css);
-@import url(/assets/footer.css);
+@import url(/assets/styles/reset.css);
+@import url(/assets/styles/header.css);
+@import url(/assets/styles/banner.css);
+@import url(/assets/styles/products.css);
+@import url(/assets/styles/footer.css);
 
 
 .container {
