@@ -1,0 +1,218 @@
+.section__products {
+    padding: 1rem;
+}
+
+.section__products-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__product {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 48%;
+}
+
+.section__product:nth-child(5), .section__product:nth-child(6) {
+    display: none;
+}
+
+.section__products-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #464646;
+}
+
+.section__products-link {
+    font-size: 14px;
+    font-weight: bold;
+    color: #2a7ae4;
+}
+
+.section__products-list {
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem 0rem;
+}
+
+.section__product-img {
+    width: 100%;
+}
+
+.product__name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #464646;
+}
+
+.product__price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #464646;
+}
+
+.product__list-link {
+    font-size: 14px;
+    font-weight: bold;
+    color: #2a7ae4;
+}
+
+@media screen and (min-width: 768px) {
+    .section__products {
+        padding: 1rem 2rem;
+    }
+
+    .section__product {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        width: 23%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .section__products {
+        padding: 0rem;
+        padding-top: 4rem;
+    }
+
+    .section__products-name {
+        font-size: 32px;
+        font-weight: bold;
+        color: #464646;
+    }
+    
+    .section__products-link {
+        font-size: 16px;
+        font-weight: bold;
+        color: #2a7ae4;
+    }
+    
+    .product__list-link {
+        font-size: 16px;
+        font-weight: bold;
+        color: #2a7ae4;
+    }
+
+    .section__product {
+        width: 16%;
+    }
+
+    .section__product:nth-child(5), .section__product:nth-child(6) {
+        display: inline;
+    }
+}
+
+
+
+
+/* PC parte
+.products {
+    font-family: raleway;
+    padding: 0rem 9.5rem;
+}
+
+.section__products {
+    padding-top: 2rem
+}
+
+.section__products-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section__products-name {
+    font-size: 32px;
+    font-weight: bold;
+    color: #464646;
+}
+
+.section__products-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2A7AE4;
+}
+
+.section__products-list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    gap: 0.5rem;
+}
+
+.section__product {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.section__product-img {
+    width: 100%;
+}
+
+.product__name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #464646;
+}
+
+.product__price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #464646;
+}
+
+.product__list-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2A7AE4;
+}
+
+
+/*Para tablets e telas menores*
+@media screen and (min-width: 768px) {
+    .products {
+        padding: 1rem 2rem;
+    }
+
+    .section__products-list {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .section__product {
+        width: 23%;
+    }
+
+    .section__product:nth-child(5), .section__product:nth-child(6) {
+        display: none;
+    }
+}
+
+/*Para celular*
+@media screen and (min-width: 360px) {
+    .products {
+        padding: 1rem 1rem;
+    }
+
+    .section__products-list {
+        flex-wrap: wrap;
+    }
+
+    .section__product {
+        width: 48%;
+    }
+
+    .section__product:nth-child(3), .section__product:nth-child(4) {
+        padding-top: 0.5rem;
+    }
+
+    .section__product:nth-child(5), .section__product:nth-child(6) {
+        display: none;
+    }
+}
