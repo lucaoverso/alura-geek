@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="container">
+        <div class="nav__infos">
+            <img class="nav__logo" alt="Alura Geek" src="./assets/images/Logo-alurageek.svg">
+            <label for="home__search" class="search__input"></label>
+            <input class="nav__search" id="home__search" type="search" placeholder="O que deseja encontrar?">
+        </div>
+        <a class="nav__login__button" href="#">Login</a>
+        <i class="search__button icon-search"></i>
+    </header>
+
+    <main>
+        <section class="form__login">
+            <h3>Iniciar Sessão</h3>
+            <label for="user__email" id="email"></label>
+            <input type="email" id="email" class="form__login-email" placeholder="Escreva seu email">
+
+            <label for="user__password" id="password"></label>
+            <input type="password" id="password" class="form__login-password" placeholder="Escreva seu senha">
+
+            <button class="form__login-button">Entrar</button>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer_infos container">
+            <img class="footer__logo" src="./assets/images/Logo-alurageek.svg" alt="Alura Geek">
+            <nav class="footer__nav">
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-itens"><a class="footer-link" href="#">Quem somos nós</a></li>
+                    <li class="footer__nav-itens"><a class="footer-link" href="#">Política de privacidade</a></li>
+                    <li class="footer__nav-itens"><a class="footer-link" href="#">Programa de fidelidade</a></li>
+                    <li class="footer__nav-itens"><a class="footer-link" href="#">Nossas lojas</a></li>
+                    <li class="footer__nav-itens"><a class="footer-link" href="#">Quero ser franqueado</a></li>
+                    <li class="footer__nav-itens"><a class="footer-link" href="#">Anuncie aqui</a></li>
+                </ul>
+            </nav>
+
+            <form class="form__footer">
+                <h4 class="form__footer-title">Fale conosco</h4>
+                <label for="name" class="form__footer-name"></label>
+                <input type="text" name="nome" id="name" class="form__footer-username" placeholder="Nome">
+                <label for="message" class="message"></label>
+                <textarea name="mensagem" class="form__footer-message" id="message" cols="30" rows="5" placeholder="Escreva sua mensagem"></textarea>
+                <button class="form__footer-button">Enviar mensagem</button>
+            </form>
+        </section>
+
+        <section class="footer__info container">
+            <p>Desenvolvido por Lucas Sbaraini</p>
+            <p>2022</p>
+        </section>
+    </footer>
+</body>
+</html>

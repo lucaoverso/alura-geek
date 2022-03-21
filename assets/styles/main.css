@@ -4,6 +4,7 @@
 @import url(products.css);
 @import url(footer.css);
 @import url(icons.css);
+@import url(login.css);
 
 i {
     font-size: 1.5rem;
