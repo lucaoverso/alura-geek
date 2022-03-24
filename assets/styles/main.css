@@ -6,11 +6,18 @@
 @import url(icons.css);
 @import url(login.css);
 @import url(product-page.css);
+@import url(all-products.css);
+@import url(add-product.css);
 
 i {
     font-size: 1.5rem;
 }
 
+input, textarea {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 400;
+}
 
 .container {
     font-family: 'Raleway', sans-serif;

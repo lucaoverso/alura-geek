@@ -89,7 +89,6 @@
 
 @media screen and (min-width: 1200px) {
     .footer_infos {
-        margin-top: 4rem;
         padding-top: 4rem;
         background-color: #EAF2FD;
         display: flex;

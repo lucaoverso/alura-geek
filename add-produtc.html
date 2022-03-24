@@ -23,15 +23,28 @@
     </header>
 
     <main>
-        <section class="form__login">
-            <h3>Iniciar Sessão</h3>
-            <label for="user__email" id="email"></label>
-            <input type="email" id="email" class="form__login-email" placeholder="Escreva seu email">
-
-            <label for="user__password" id="password"></label>
-            <input type="password" id="password" class="form__login-password" placeholder="Escreva seu senha">
-
-            <a href="all-products.html" class="form__login-button">Entrar</a>
+        <section class="add__product-form">
+            <div class="add__product container">
+                <h2 class="add__product-title">Adicionar novo produto</h2>
+    
+                <div class="form__add-product">
+                    <div class="drag__file"></div>
+                    <span>ou</span>
+                    <label for="product__img" id="img-product" class="form__add-image"></label>
+                    <input type="file" id="product__img" accept="image/*">
+                </div>
+    
+                <label for="product__name" id="product__name" class="form__product-input"></label>
+                <input type="name" id="product__name" class="form__product-name" placeholder="Qual o nome do produto?">
+    
+                <label for="product__price" id="product__price" class="form__product-input"></label>
+                <input type="number" id="product__price" class="form__product-price" placeholder="Qual o valor do produto?">
+    
+                <label for="description" class="description"></label>
+                <textarea name="description" class="form__product-description" id="description" cols="30" rows="5" placeholder="Descrição do produto"></textarea>
+    
+                <button class="form__add-product-button">Adicionar produto</button>
+            </div>
         </section>
     </main>
 
