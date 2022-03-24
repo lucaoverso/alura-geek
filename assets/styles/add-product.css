@@ -36,7 +36,7 @@ input[type='file'] {
     color: #585656;
     margin-bottom: 1rem;
     border: 1px dashed #C8C8C8;
-    background-image: url('/assets/icons/adicionar.png');
+    background-image: url('../assets/icons/adicionar.png');
     background-repeat: no-repeat;
     background-position: center 40%;
     cursor: pointer;
@@ -103,7 +103,7 @@ input[type='file'] {
         text-align: center;
         padding: 2rem;
         padding-top: 5rem;
-        background-image: url(/assets/icons/img.png);
+        background-image: url('../assets/icons/img.png');
         background-repeat: no-repeat;
         background-position: center 25%;
     }
